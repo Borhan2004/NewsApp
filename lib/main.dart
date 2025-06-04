@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:news_api_model/newsapi/news_api_model.dart';
 import 'package:news_api_model/newsapi/news_app.dart';
 
 class MyApp extends StatelessWidget {

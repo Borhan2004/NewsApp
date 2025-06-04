@@ -46,11 +46,11 @@ class _NewsAppState extends State<NewsApp> {
               return ListTile(
                 leading: CircleAvatar(
                   backgroundImage: NetworkImage(
-                    "${snapshot.data!.status![index].toString()}",
+                    snapshot.data!.status![index].toString(),
                   ),
                 ),
-                title: Text("${snapshot.data!.status![index].toString()}"),
-                subtitle: Text("${snapshot.data!.status![index].toString()}"),
+                title: Text(snapshot.data!.status![index].toString()),
+                subtitle: Text(snapshot.data!.status![index].toString()),
               );
             },
             itemCount: snapshot.data!.status!.length,
